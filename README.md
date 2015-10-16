@@ -26,6 +26,12 @@ Next, add the service provider to `config/app.php`.
 ]
 ```
 
+'aliases' => [
+    //..
+    'PDF'      =>  Elibyy\TCPDF\Facades\TCPdf::class, 
+  
+  ```    
+
 That's it! You're good to go.
 
 Here is a little example:
